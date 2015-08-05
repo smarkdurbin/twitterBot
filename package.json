@@ -1,0 +1,19 @@
+{
+  "name": "twitterBot",
+  "version": "1.0.0",
+  "description": "Bot generates random words from Wordnik API, strings three of them together in various combinations and compares these three-word combinations against a geo-mapping API called what3words. What3words has the entire globe mapped out in 3mx3m squares, tagged as strings of text in this format: (word1.word2.word3). The coordinates associated with the location defined by (word1.word2.word3) are fed into google static maps and an image from google static maps is tweeted of those coordinates.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Steven Durbin",
+  "license": "FREE",
+  "dependencies": {
+    "geo.what3words": "0.0.2",
+    "google-static-map": "0.0.2",
+    "googlemaps": "^0.1.20",
+    "node-twitter": "^0.5.2",
+    "request": "^2.53.0",
+    "wordnik": "0.0.2"
+  }
+}
